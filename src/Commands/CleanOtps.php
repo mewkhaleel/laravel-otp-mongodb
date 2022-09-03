@@ -1,8 +1,8 @@
 <?php
 
-namespace Ichtrojan\Otp\Commands;
+namespace mewkhaleel\Otp\Commands;
 
-use Ichtrojan\Otp\Models\Otp;
+use mewkhaleel\Otp\Models\Otp;
 use Illuminate\Console\Command;
 
 class CleanOtps extends Command
