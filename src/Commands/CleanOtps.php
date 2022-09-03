@@ -1,6 +1,6 @@
 <?php
 
-namespace Mewkhaleel\Laravel-otp-mongodb\Otp\Commands;
+namespace Mewkhaleel\Otp\Commands;
 
 use Mewkhaleel\laravel-otp-mongodb\Otp\Models\Otp;
 use Illuminate\Console\Command;
