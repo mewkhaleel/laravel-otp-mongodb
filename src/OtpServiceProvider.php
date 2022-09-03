@@ -1,6 +1,6 @@
 <?php
 
-namespace Ichtrojan\Otp;
+namespace mewkhaleel\Otp;
 
 use Illuminate\Support\ServiceProvider;
 
