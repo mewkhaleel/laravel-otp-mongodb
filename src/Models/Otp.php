@@ -1,6 +1,6 @@
 <?php
 
-namespace mewkhaleel\Otp\Models;
+namespace Mewkhaleel\Laravel-otp-mongodb\Otp\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 
