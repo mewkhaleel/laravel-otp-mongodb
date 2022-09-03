@@ -1,11 +1,11 @@
 {
-    "name": "ichtrojan/laravel-otp",
+    "name": "mewkhaleel/laravel-otp-mongodb",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Okoh",
-            "email": "michael@okoh.co.uk"
+            "name": "Khaleel Rasakh",
+            "email": "khaleelrasakh@gmail.com"
         }
     ],
     "minimum-stability": "dev",
