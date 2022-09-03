@@ -11,16 +11,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "mewchtrojan\\Otp\\": "src/"
+            "mewchtrojan\\laravel-otp-mongodb\\Otp\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "mewkhaleel\\Otp\\OtpServiceProvider"
+                "mewkhaleel\\laravel-otp-mongodb\\Otp\\OtpServiceProvider"
             ],
             "aliases": {
-                "Otp": "mewkhaleel\\Otp\\Otp"
+                "Otp": "mewkhaleel\\laravel-otp-mongodb\\Otp\\Otp"
             }
         }
     },
