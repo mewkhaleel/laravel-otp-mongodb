@@ -11,16 +11,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Mewkhaleel\\Otp\\": "src/"
+            "mewkhaleel\\Otp\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mewkhaleel\\Otp\\OtpServiceProvider"
+                "mewkhaleel\\Otp\\OtpServiceProvider"
             ],
             "aliases": {
-                "Otp": "Mewkhaleel\\Otp\\Otp"
+                "Otp": "mewkhaleel\\Otp\\Otp"
             }
         }
     },
