@@ -1,6 +1,6 @@
 <?php
 
-namespace Mewkhaleel\Laravel-otp-mongodb\Otp;
+namespace Mewkhaleel\Otp;
 
 use Illuminate\Support\ServiceProvider;
 
