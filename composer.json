@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mewkhaleel\\laravel-otp-mongodb\\Otp\\OtpServiceProvider"
+                "Mewkhaleel\\Laravel-otp-mongodb\\Otp\\OtpServiceProvider"
             ],
             "aliases": {
                 "Otp": "Mewkhaleel\\laravel-otp-mongodb\\Otp\\Otp"
