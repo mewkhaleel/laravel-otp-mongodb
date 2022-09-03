@@ -1,9 +1,9 @@
 <?php
 
-namespace Mewkhaleel\Otp;
+namespace mewkhaleel\Otp;
 
 use Carbon\Carbon;
-use Mewkhaleel\Otp\Models\Otp as Model;
+use mewkhaleel\Otp\Models\Otp as Model;
 use Illuminate\Support\Facades\Facade;
 
 class Otp extends Facade
