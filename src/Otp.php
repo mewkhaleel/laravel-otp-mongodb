@@ -1,6 +1,6 @@
 <?php
 
-namespace Mewkhaleel\laravel-otp-mongodb\Otp;
+namespace Mewkhaleel\Otp;
 
 use Carbon\Carbon;
 use mewkhaleel\Otp\Models\Otp as Model;
