@@ -3,7 +3,7 @@
 namespace Mewkhaleel\Otp;
 
 use Carbon\Carbon;
-use mewkhaleel\Otp\Models\Otp as Model;
+use Mewkhaleel\Otp\Models\Otp as Model;
 use Illuminate\Support\Facades\Facade;
 
 class Otp extends Facade
