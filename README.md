@@ -4,6 +4,10 @@
 
 This is a simple package to generate and validate OTPs (One Time Passwords). This can be implemented mostly in Authentication.
 
+Thanks https://github.com/jenssegers/laravel-mongodb.
+
+Original https://github.com/ichtrojan/laravel-otp Thanks bud <3
+
 ## Installation 💽
 
 Install via composer
