@@ -25,7 +25,7 @@ class OtpServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         
          $this->commands([
-            \Mewkhaleel\Laravel-otp-mongodb\Otp\Commands\CleanOtps::class,
+            \Mewkhaleel\Otp\Commands\CleanOtps::class,
         ]);
     }
 }
