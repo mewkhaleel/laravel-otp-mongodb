@@ -17,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ichtrojan\\Otp\\OtpServiceProvider"
+                "mewkhaleel\\Otp\\OtpServiceProvider"
             ],
             "aliases": {
-                "Otp": "Ichtrojan\\Otp\\Otp"
+                "Otp": "mewkhaleel\\Otp\\Otp"
             }
         }
     },
