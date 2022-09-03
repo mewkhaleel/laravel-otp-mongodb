@@ -1,4 +1,4 @@
-# Laravel OTP ▲
+# Laravel OTP for mongodb ▲
 
 ## Introduction 🖖
 
