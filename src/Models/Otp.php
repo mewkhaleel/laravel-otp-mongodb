@@ -1,6 +1,6 @@
 <?php
 
-namespace Ichtrojan\Otp\Models;
+namespace mewkhaleel\Otp\Models;
 
 use Jenssegers\Mongodb\Eloquent\Model;
 
