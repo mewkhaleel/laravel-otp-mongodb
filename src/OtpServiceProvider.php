@@ -1,6 +1,6 @@
 <?php
 
-namespace mewkhaleel\Otp;
+namespace Mewkhaleel\Laravel-otp-mongodb\Otp;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,7 +25,7 @@ class OtpServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         
          $this->commands([
-            \Ichtrojan\Otp\Commands\CleanOtps::class,
+            \Mewkhaleel\Laravel-otp-mongodb\Otp\Commands\CleanOtps::class,
         ]);
     }
 }
