@@ -29,7 +29,7 @@ Add service provider to the `config/app.php` file
 
     'providers' => [
         ...
-        Ichtrojan\Otp\OtpServiceProvider::class,
+        mewkhaleel\Otp\OtpServiceProvider::class,
     ];
 ...
 ```
@@ -52,7 +52,7 @@ Add alias to the `config/app.php` file
 
     'aliases' => [
         ...
-        'Otp' => Ichtrojan\Otp\Otp::class,
+        'Otp' => mewkhaleel\Otp\Otp::class,
     ];
 ...
 ```
