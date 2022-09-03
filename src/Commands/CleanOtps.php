@@ -1,8 +1,8 @@
 <?php
 
-namespace mewkhaleel\Otp\Commands;
+namespace Mewkhaleel\Laravel-otp-mongodb\Otp\Commands;
 
-use mewkhaleel\Otp\Models\Otp;
+use Mewkhaleel\laravel-otp-mongodb\Otp\Models\Otp;
 use Illuminate\Console\Command;
 
 class CleanOtps extends Command
