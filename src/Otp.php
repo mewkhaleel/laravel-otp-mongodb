@@ -62,7 +62,7 @@ class Otp extends Facade
                 'message' => 'OTP does not exist'
             ];
         } else {
-            if ($otp->valid == true) {
+            if (!empty($otp)) {
                 $carbon = new Carbon;
                 $now = $carbon->now();
                 $validity = $otp->created_at->addMinutes($otp->validity);
