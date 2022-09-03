@@ -2,7 +2,7 @@
 
 namespace Mewkhaleel\Otp\Commands;
 
-use Mewkhaleel\laravel-otp-mongodb\Otp\Models\Otp;
+use Mewkhaleel\Otp\Models\Otp;
 use Illuminate\Console\Command;
 
 class CleanOtps extends Command
