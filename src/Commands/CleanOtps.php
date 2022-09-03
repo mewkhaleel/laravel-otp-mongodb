@@ -1,8 +1,8 @@
 <?php
 
-namespace Mewkhaleel\Otp\Commands;
+namespace mewkhaleel\Otp\Commands;
 
-use Mewkhaleel\Otp\Models\Otp;
+use mewkhaleel\Otp\Models\Otp;
 use Illuminate\Console\Command;
 
 class CleanOtps extends Command
