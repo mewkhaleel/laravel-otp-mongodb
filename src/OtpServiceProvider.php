@@ -1,6 +1,6 @@
 <?php
 
-namespace Mewkhaleel\Otp;
+namespace mewkhaleel\Otp;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,7 +25,7 @@ class OtpServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         
          $this->commands([
-            \Mewkhaleel\Otp\Commands\CleanOtps::class,
+            \mewkhaleel\Otp\Commands\CleanOtps::class,
         ]);
     }
 }
