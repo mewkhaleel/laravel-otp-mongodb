@@ -9,7 +9,7 @@ This is a simple package to generate and validate OTPs (One Time Passwords). Thi
 Install via composer
 
 ```bash
-composer require ichtrojan/laravel-otp
+composer require mewkhaleel/laravel-otp-mongodb
 ```
 
 Add service provider to the `config/app.php` file
